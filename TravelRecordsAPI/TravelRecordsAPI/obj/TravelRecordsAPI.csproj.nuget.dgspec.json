@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\agnie\\source\\repos\\Travel Records\\TravelRecordsApi\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj": {}
+    "C:\\Users\\agnie\\source\\repos\\TR-branch\\travel-records-backend\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\agnie\\source\\repos\\Travel Records\\TravelRecordsApi\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj": {
+    "C:\\Users\\agnie\\source\\repos\\TR-branch\\travel-records-backend\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\agnie\\source\\repos\\Travel Records\\TravelRecordsApi\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\agnie\\source\\repos\\TR-branch\\travel-records-backend\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj",
         "projectName": "TravelRecordsAPI",
-        "projectPath": "C:\\Users\\agnie\\source\\repos\\Travel Records\\TravelRecordsApi\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj",
+        "projectPath": "C:\\Users\\agnie\\source\\repos\\TR-branch\\travel-records-backend\\TravelRecordsAPI\\TravelRecordsAPI\\TravelRecordsAPI.csproj",
         "packagesPath": "C:\\Users\\agnie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\agnie\\source\\repos\\Travel Records\\TravelRecordsApi\\TravelRecordsAPI\\TravelRecordsAPI\\obj\\",
+        "outputPath": "C:\\Users\\agnie\\source\\repos\\TR-branch\\travel-records-backend\\TravelRecordsAPI\\TravelRecordsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
