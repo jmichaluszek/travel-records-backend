@@ -16,8 +16,10 @@ namespace TravelRecordsAPI.Models
         {
         }
 
-        public virtual DbSet<Trip> Trips { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
+        public virtual DbSet<Trip> Trips { get; set; } = null!;
+        public virtual DbSet<Post> Posts { get; set; } = null!;
+        public virtual DbSet<Stage> Stages { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -30,14 +32,24 @@ namespace TravelRecordsAPI.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.Property(e => e.UserId).ValueGeneratedNever();
+            });
+
             modelBuilder.Entity<Trip>(entity =>
             {
                 entity.Property(e => e.TripId).ValueGeneratedNever();
             });
 
-            modelBuilder.Entity<User>(entity =>
+            modelBuilder.Entity<Post>(entity =>
             {
-                entity.Property(e => e.UserId).ValueGeneratedNever();
+                entity.Property(e => e.PostId).ValueGeneratedNever();
+            });
+
+            modelBuilder.Entity<Stage>(entity =>
+            {
+                entity.Property(e => e.StageId).ValueGeneratedNever();
             });
 
             OnModelCreatingPartial(modelBuilder);
