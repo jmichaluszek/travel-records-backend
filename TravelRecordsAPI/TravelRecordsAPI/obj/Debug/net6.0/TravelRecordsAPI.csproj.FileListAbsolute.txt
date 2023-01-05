@@ -795,3 +795,5 @@ C:\Users\agnie\source\repos\TR-branch\travel-records-backend\TravelRecordsAPI\Tr
 C:\Users\agnie\source\repos\TR-branch\travel-records-backend\TravelRecordsAPI\TravelRecordsAPI\obj\Debug\net6.0\TravelRecordsAPI.pdb
 C:\Users\agnie\source\repos\TR-branch\travel-records-backend\TravelRecordsAPI\TravelRecordsAPI\obj\Debug\net6.0\TravelRecordsAPI.genruntimeconfig.cache
 C:\Users\agnie\source\repos\TR-branch\travel-records-backend\TravelRecordsAPI\TravelRecordsAPI\obj\Debug\net6.0\ref\TravelRecordsAPI.dll
+C:\Users\agnie\source\repos\TR-branch\travel-records-backend\TravelRecordsAPI\TravelRecordsAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\agnie\source\repos\TR-branch\travel-records-backend\TravelRecordsAPI\TravelRecordsAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
